@@ -1,0 +1,194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2593156100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verifying age of a person",
+        "description": "",
+        "id": "home-page-functionality;verifying-age-of-a-person",
+        "after": [
+          {
+            "result": {
+              "duration": 656217800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57132100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "HomePageSteps.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62917100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the text on the Home page",
+            "match": {
+              "location": "HomePageSteps.iVerifyTheTextOnTheHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92877900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter User Name",
+            "match": {
+              "location": "HomePageSteps.iEnterUserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59062300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the Date of Birth",
+            "match": {
+              "location": "HomePageSteps.iEnterTheDateOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48705100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Submit",
+            "match": {
+              "location": "HomePageSteps.iClickOnSubmit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page functionality",
+    "description": "",
+    "id": "home-page-functionality",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1683682600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "I want to verify the the name and age",
+        "description": "",
+        "id": "result-page-functionality;i-want-to-verify-the-the-name-and-age",
+        "after": [
+          {
+            "result": {
+              "duration": 622367300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 213874300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Result Page",
+            "match": {
+              "location": "ResultPageSteps.iAmOnTheResultPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 336802700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify the text Hello name!",
+            "match": {
+              "location": "ResultPageSteps.iVerifyTheTextHelloName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31869400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify the age of the person",
+            "match": {
+              "location": "ResultPageSteps.iVerifyTheAgeOfThePerson()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Result Page Functionality",
+    "description": "\r\nAs a user I want to check if it print the correct entered name and print the age of the person",
+    "id": "result-page-functionality",
+    "keyword": "Feature",
+    "uri": "ResultPage.feature"
+  }
+]
